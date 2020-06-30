@@ -1,0 +1,112 @@
+
+
+/* NavBar */
+
+ .top-bar {
+  background-color: #131921;
+  padding-top: 8px;
+}
+
+
+.top-bar .brand{
+  color: white;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+
+.top-bar .search-area{
+  border-radius: 8px 0 0 8px;
+margin-left: 20px;
+
+}
+
+
+.top-bar .search{
+  height: 38px;
+  width: 38px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  background-color: #FEBD69;
+
+}
+
+
+
+
+.top-bar .navbar .collapse ul li{
+
+
+}
+.top-bar .navbar .collapse ul li a{
+  border-style: solid;
+  border-color: #131921;
+  color: white;
+
+}
+.top-bar .navbar .collapse ul li a:hover{
+border-color: white;
+}
+.top-bar .navbar .collapse ul li .dDown a{
+  color: black;
+
+}
+
+
+/* card */
+.card-container{
+  margin: 20px;
+  width: 320px;
+  display: inline-block;
+  padding: 10px;
+
+}
+.card-container img{
+  width: 300px;
+  height: 300px;
+}
+
+/*Banner*/
+.banner{
+  width: 100%;
+}
+
+/*Carousel*/
+
+#carouselExampleControls .carousel-inner .carousel-item {
+  height: 100%;
+  font-size: 0.8rem;
+font-family: sans-serif;
+
+}
+#carouselExampleControls .carousel-inner .carousel-container{
+padding: 0 50px 0 50px;
+}
+#carouselExampleControls a{
+  height: 100%;
+  background-color: white;
+  width: 50px;
+}
+
+#carouselExampleControls {
+padding-top: 30px;
+}
+
+#carouselExampleControls .carousel-inner .carousel-item .ad-container{
+  width: 130px;
+  margin: 0 11px 0 16px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+#carouselExampleControls .carousel-inner .carousel-container .carousel-item img{
+  width: 130px;
+  height: 140px;
+}
+
+#carouselExampleControls a .carousel-control-prev-icon, .carousel-control-next-icon{
+background-color: #B0ADA8;
+color:#B0ADA8;
+}
