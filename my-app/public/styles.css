@@ -16,6 +16,17 @@
   font-family: Montserrat;
 }
 
+.top-bar .collapse ul li .search-box{
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .top-bar .collapse ul li .search-box{
+    padding-top: 25px;
+  }
+
+}
+
 .top-bar .search-area{
   border-radius: 8px 0 0 8px;
 margin-left: 20px;
@@ -23,28 +34,24 @@ margin-left: 20px;
 }
 
 
-.top-bar .search{
+.top-bar .search-icon{
   height: 38px;
   width: 38px;
   border: none;
   border-radius: 0 8px 8px 0;
   background-color: #FEBD69;
-
 }
 
 
 
-
-.top-bar .navbar .collapse ul li{
-
-
-}
 .top-bar .navbar .collapse ul li a{
   border-style: solid;
   border-color: #131921;
   color: white;
 
 }
+
+
 .top-bar .navbar .collapse ul li a:hover{
 border-color: white;
 }
@@ -52,6 +59,8 @@ border-color: white;
   color: black;
 
 }
+
+
 
 
 /* card */
